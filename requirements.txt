@@ -1,0 +1,17 @@
+Django
+django-widget-tweaks
+django-crispy-forms
+gunicorn
+matplotlib
+numpy
+pandas
+cassandra-driver
+Flask
+Flask-Cors
+joblib
+scikit-learn
+scipy
+xgboost
+lightgbm
+catboost
+

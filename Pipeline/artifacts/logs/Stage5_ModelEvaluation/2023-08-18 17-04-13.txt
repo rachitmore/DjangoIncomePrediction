@@ -1,0 +1,140 @@
+2023-08-18/17:05:39		Model Evaluation started
+2023-08-18/17:05:39		Calculating training accuracy
+2023-08-18/17:05:40		Training accuracy has been calculated 0.8864847143676747
+2023-08-18/17:05:40		Predicting X_test..
+2023-08-18/17:05:40		X_test has been predicted and saved to  successfully
+2023-08-18/17:05:40		creating classification report..
+2023-08-18/17:05:40		Classification Report -
+              precision    recall  f1-score   support
+
+           0       0.88      0.94      0.91      6159
+           1       0.76      0.61      0.67      1976
+
+    accuracy                           0.86      8135
+   macro avg       0.82      0.77      0.79      8135
+weighted avg       0.85      0.86      0.85      8135
+
+2023-08-18/17:05:40		creating confusion_matrix..
+2023-08-18/17:05:40		Confusion matirx -
+[[5775  384]
+ [ 780 1196]]
+2023-08-18/17:05:40		Calculating Auc and Roc score
+2023-08-18/17:05:40		AUC-ROC Score - 0.9116102106590993
+2023-08-18/17:05:40		Plotting ROC and PR curve
+2023-08-18/17:05:40		Creating RocCurveDisplay
+2023-08-18/17:05:40		Creating PrecisionRecallDisplay
+2023-08-18/17:05:40		Combining the display objects into a single plot
+2023-08-18/17:05:41		Plot has been saved to artifacts/plots/GradientBoostingClassifier_roc_and_pr.png successfully
+2023-08-18/17:05:41		Model Evaluation has been done successfully
+2023-08-18/17:05:41		Model Evaluation started
+2023-08-18/17:05:41		Calculating training accuracy
+2023-08-18/17:05:41		Training accuracy has been calculated 0.8888205884763544
+2023-08-18/17:05:41		Predicting X_test..
+2023-08-18/17:05:41		X_test has been predicted and saved to  successfully
+2023-08-18/17:05:41		creating classification report..
+2023-08-18/17:05:41		Classification Report -
+              precision    recall  f1-score   support
+
+           0       0.88      0.93      0.91      6159
+           1       0.75      0.61      0.67      1976
+
+    accuracy                           0.85      8135
+   macro avg       0.81      0.77      0.79      8135
+weighted avg       0.85      0.85      0.85      8135
+
+2023-08-18/17:05:41		creating confusion_matrix..
+2023-08-18/17:05:41		Confusion matirx -
+[[5754  405]
+ [ 776 1200]]
+2023-08-18/17:05:41		Calculating Auc and Roc score
+2023-08-18/17:05:41		AUC-ROC Score - 0.9066323072847542
+2023-08-18/17:05:41		Plotting ROC and PR curve
+2023-08-18/17:05:41		Creating RocCurveDisplay
+2023-08-18/17:05:41		Creating PrecisionRecallDisplay
+2023-08-18/17:05:41		Combining the display objects into a single plot
+2023-08-18/17:05:42		Plot has been saved to artifacts/plots/HistGradientBoostingClassifier_roc_and_pr.png successfully
+2023-08-18/17:05:42		Model Evaluation has been done successfully
+2023-08-18/17:05:42		Model Evaluation started
+2023-08-18/17:05:42		Calculating training accuracy
+2023-08-18/17:05:42		Training accuracy has been calculated 0.8961150725350381
+2023-08-18/17:05:42		Predicting X_test..
+2023-08-18/17:05:42		X_test has been predicted and saved to  successfully
+2023-08-18/17:05:42		creating classification report..
+2023-08-18/17:05:42		Classification Report -
+              precision    recall  f1-score   support
+
+           0       0.88      0.94      0.91      6159
+           1       0.75      0.60      0.67      1976
+
+    accuracy                           0.85      8135
+   macro avg       0.82      0.77      0.79      8135
+weighted avg       0.85      0.85      0.85      8135
+
+2023-08-18/17:05:42		creating confusion_matrix..
+2023-08-18/17:05:42		Confusion matirx -
+[[5777  382]
+ [ 800 1176]]
+2023-08-18/17:05:42		Calculating Auc and Roc score
+2023-08-18/17:05:42		AUC-ROC Score - 0.9023688548998108
+2023-08-18/17:05:42		Plotting ROC and PR curve
+2023-08-18/17:05:42		Creating RocCurveDisplay
+2023-08-18/17:05:42		Creating PrecisionRecallDisplay
+2023-08-18/17:05:42		Combining the display objects into a single plot
+2023-08-18/17:05:43		Plot has been saved to artifacts/plots/XGBClassifier_roc_and_pr.png successfully
+2023-08-18/17:05:43		Model Evaluation has been done successfully
+2023-08-18/17:05:43		Model Evaluation started
+2023-08-18/17:05:43		Calculating training accuracy
+2023-08-18/17:05:43		Training accuracy has been calculated 0.9157855913449717
+2023-08-18/17:05:43		Predicting X_test..
+2023-08-18/17:05:44		X_test has been predicted and saved to  successfully
+2023-08-18/17:05:44		creating classification report..
+2023-08-18/17:05:44		Classification Report -
+              precision    recall  f1-score   support
+
+           0       0.92      0.84      0.88      6159
+           1       0.61      0.77      0.68      1976
+
+    accuracy                           0.82      8135
+   macro avg       0.76      0.80      0.78      8135
+weighted avg       0.84      0.82      0.83      8135
+
+2023-08-18/17:05:44		creating confusion_matrix..
+2023-08-18/17:05:44		Confusion matirx -
+[[5174  985]
+ [ 461 1515]]
+2023-08-18/17:05:44		Calculating Auc and Roc score
+2023-08-18/17:05:44		AUC-ROC Score - 0.8927049089808338
+2023-08-18/17:05:44		Plotting ROC and PR curve
+2023-08-18/17:05:44		Creating RocCurveDisplay
+2023-08-18/17:05:44		Creating PrecisionRecallDisplay
+2023-08-18/17:05:44		Combining the display objects into a single plot
+2023-08-18/17:05:44		Plot has been saved to artifacts/plots/LGBMClassifier_roc_and_pr.png successfully
+2023-08-18/17:05:45		Model Evaluation has been done successfully
+2023-08-18/17:05:45		Model Evaluation started
+2023-08-18/17:05:45		Calculating training accuracy
+2023-08-18/17:05:45		Training accuracy has been calculated 0.9235308581263831
+2023-08-18/17:05:45		Predicting X_test..
+2023-08-18/17:05:46		X_test has been predicted and saved to  successfully
+2023-08-18/17:05:46		creating classification report..
+2023-08-18/17:05:46		Classification Report -
+              precision    recall  f1-score   support
+
+           0       0.88      0.93      0.91      6159
+           1       0.74      0.61      0.67      1976
+
+    accuracy                           0.85      8135
+   macro avg       0.81      0.77      0.79      8135
+weighted avg       0.85      0.85      0.85      8135
+
+2023-08-18/17:05:46		creating confusion_matrix..
+2023-08-18/17:05:46		Confusion matirx -
+[[5740  419]
+ [ 775 1201]]
+2023-08-18/17:05:46		Calculating Auc and Roc score
+2023-08-18/17:05:46		AUC-ROC Score - 0.9038873611113849
+2023-08-18/17:05:46		Plotting ROC and PR curve
+2023-08-18/17:05:46		Creating RocCurveDisplay
+2023-08-18/17:05:46		Creating PrecisionRecallDisplay
+2023-08-18/17:05:47		Combining the display objects into a single plot
+2023-08-18/17:05:47		Plot has been saved to artifacts/plots/CatBoostClassifier_roc_and_pr.png successfully
+2023-08-18/17:05:47		Model Evaluation has been done successfully

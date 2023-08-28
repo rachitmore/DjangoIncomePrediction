@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}Training{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <ul class="back-button">
+        <li><a href="{% url 'home' %}">Back</a></li>
+    </ul>
+
+    <div class="form-container">
+        <form method="post" action="{% url 'options' %}">
+            {% csrf_token %}
+            <legend>Adult Census Income Prediction</legend>
+
+            <label class="form-label">Options</label>
+            <div>
+                <input type="radio" id="Income Prediction" name="Income Prediction" value="Income Prediction">
+                <label for="Income Prediction">Income Prediction</label>
+
+                <input type="radio" id="Wafer Fault Prediction" name="Wafer Fault Prediction" value="Wafer Fault Prediction">
+                <label for="Wafer Fault Prediction">"Wafer Fault Prediction"</label>
+
+                <input type="radio" id="Credit Card Defaulters Prediction" name="Credit Card Defaulters Prediction" value="Credit Card Defaulters Prediction">
+                <label for="Credit Card Defaulters Prediction">Credit Card Defaulters Prediction</label>
+            </div>
+
+            <div>
+                <input type="submit" value="Train Model">
+            </div>
+        </form>
+    </div>
+    
+
+{% endblock %}
+    
